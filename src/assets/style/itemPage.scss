@@ -1,0 +1,27 @@
+.container{
+  .title{
+    margin-bottom: 20px;
+  }
+  .productBlock{
+    display: flex;
+    margin-bottom: 50px;
+    @media screen and (max-width: 600px){
+      margin-bottom: 25px;
+      flex-direction: column;
+      &>div:first-child{
+        order: 1;
+      }
+    }
+    img{
+      margin-right: 50px;
+    }
+    .productInfo>*{
+      margin-bottom: 20px;
+    }
+  }
+  .productDescription{
+    @media screen and (max-width: 600px){
+      padding: 5px;
+    }
+  }
+}

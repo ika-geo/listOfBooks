@@ -1,0 +1,35 @@
+.container .filter {
+  display: flex;
+}
+.container .filter input, .container .filter select {
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 7px;
+  border: 1px solid grey;
+  font-size: 15px;
+  font-family: system-ui, sans-serif;
+}
+.container table {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+}
+.container table thead {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.container table thead th {
+  padding: 10px 5px;
+  text-align: start;
+}
+.container table tbody tr:nth-child(odd) {
+  background-color: lightGrey;
+  padding: 5px;
+}
+.container table tbody td {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=listPage.css.map */

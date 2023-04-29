@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #3a43b5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.cursor {
+  cursor: pointer;
+  color: #3a43b5;
+}
+
+/*# sourceMappingURL=style.css.map */
